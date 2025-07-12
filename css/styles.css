@@ -1,4 +1,4 @@
-
+/* google-font */
 .raleway_font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -6,41 +6,69 @@
   font-style: bold;
 }
 
+/* shared style */
+.bt-primary{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    width: 132px;
+    height: 48px;
+    font-weight: bold;
+
+}
 /* navigation section */
 nav{
+    margin: 0px 150px; 
+    align-items: center; 
+    padding-top: 50px;  
+}
+nav ul{
     display: flex;
-    justify-content: space-between;
-    margin: 50px 150px 50px;
+    justify-content: space-between; 
+    align-items: center;  
 }
-
-.btn-style{
-    background-color: #4E47FF;
-    color: white;
-    font-size:16px;
-    font-weight: bold;
-    padding: 12px 36px 12px 36px;
-    border-radius: 25px;
-    border: none;
-    text-align: center;
-    cursor: pointer;
+nav ul li {
+    list-style: none;
+     margin: 0 51px;
+    font-size: 20px;
 }
-nav h2{
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-logo{
     color: #4E47FF;
     font-size: 34px;
+    width: 99px;
+    height: 51px;
 }
- .banner{
+/* banner-style */
+.banner-button{
+  width: 174px;
+  height: 48px;
+   margin-bottom: 164px;
+}
+.banner{
     text-align: center;
-    text-align: center;
-    margin: 158px 260px 237px 200px;
-
+    margin: 158px 267.5px 152px  267.5px;
+    align-items: center ;
 }
-.banner h1{
-    font-size: 65px;
-    
+.banner-heading{
+    font-size:56px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 37px;
+    text-align: center;  
 }
-.bg-head{
-    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
-    margin-bottom: 200px;
-    position: absolute;
+header{
+    background-image: url(/image/Hero-bg.png);
+    background-size: contain;
+    background-position: center;   
+}
 
+*{
+    margin: 0;
+    padding: 0;
 }
